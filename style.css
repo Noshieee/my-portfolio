@@ -10,17 +10,16 @@ body{
 ul {
 
     list-style-type: none;
-    
+    font-size: 200%;
     margin: 0;
-    
     padding: 0;
-    
     overflow: hidden;
     
 }
 
 li {
     float: right;
+    padding: 0px 30px;
 }
 
 li a {
@@ -51,10 +50,12 @@ li a .active {
 }
 
 
-h1{
+.home1 h1{
     display: flex;
     justify-content: center;
     text-align-last: center;
-    background-color: white;
     width: 100%;
+    font-size: 500% ;
+    text-shadow: 3px -1px white;
 }
+
